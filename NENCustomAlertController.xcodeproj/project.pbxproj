@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		099D7EBE262D160600FE4C2B /* MyCustomView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099D7EBD262D160600FE4C2B /* MyCustomView2.swift */; };
+		099D7EC1262D16D500FE4C2B /* MyCustomView2TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099D7EC0262D16D500FE4C2B /* MyCustomView2TableViewCell.swift */; };
 		09C2B245262BB2E80078DD28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C2B244262BB2E80078DD28 /* AppDelegate.swift */; };
 		09C2B249262BB2E80078DD28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C2B248262BB2E80078DD28 /* ViewController.swift */; };
 		09C2B24C262BB2E80078DD28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09C2B24A262BB2E80078DD28 /* Main.storyboard */; };
@@ -22,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		099D7EBD262D160600FE4C2B /* MyCustomView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomView2.swift; sourceTree = "<group>"; };
+		099D7EC0262D16D500FE4C2B /* MyCustomView2TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomView2TableViewCell.swift; sourceTree = "<group>"; };
 		09C2B241262BB2E80078DD28 /* NENCustomAlertController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NENCustomAlertController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09C2B244262BB2E80078DD28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		09C2B248262BB2E80078DD28 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -72,6 +76,8 @@
 				09C2B244262BB2E80078DD28 /* AppDelegate.swift */,
 				09C2B248262BB2E80078DD28 /* ViewController.swift */,
 				09C2B270262BC0D70078DD28 /* MyCustomView1.swift */,
+				099D7EBD262D160600FE4C2B /* MyCustomView2.swift */,
+				099D7EC0262D16D500FE4C2B /* MyCustomView2TableViewCell.swift */,
 				09C2B24A262BB2E80078DD28 /* Main.storyboard */,
 				09C2B24D262BB2E90078DD28 /* Assets.xcassets */,
 				09C2B24F262BB2E90078DD28 /* LaunchScreen.storyboard */,
@@ -166,11 +172,13 @@
 				09C2B249262BB2E80078DD28 /* ViewController.swift in Sources */,
 				09C2B245262BB2E80078DD28 /* AppDelegate.swift in Sources */,
 				09C2B271262BC0D70078DD28 /* MyCustomView1.swift in Sources */,
+				099D7EC1262D16D500FE4C2B /* MyCustomView2TableViewCell.swift in Sources */,
 				09C2B265262BB30C0078DD28 /* XHActionSheetPresentationController.swift in Sources */,
 				09C2B262262BB30C0078DD28 /* XHAlertPresentationContoller.swift in Sources */,
 				09C2B263262BB30C0078DD28 /* XHAlterDelegate.swift in Sources */,
 				09C2B261262BB30C0078DD28 /* XHAlertCustomViewController.swift in Sources */,
 				09C2B266262BB30C0078DD28 /* XHActionSheetDelegate.swift in Sources */,
+				099D7EBE262D160600FE4C2B /* MyCustomView2.swift in Sources */,
 				09C2B269262BBB8C0078DD28 /* XHConst.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

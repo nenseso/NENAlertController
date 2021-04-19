@@ -85,8 +85,9 @@ class XHAlertCustomViewController: UIViewController {
     
     override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
         if self.style == .alert {
-            self.preferredContentSize = CGSize(width: size.height, height: size.width)
+//            self.preferredContentSize = CGSize(width: size.height, height: size.width)
         } else {
+            // TODO:适配横竖屏切换
             if IS_LANDSCAPE {
                 let size = CGSize(width: DEVICE_WIDTH, height: customView.bounds.height)
                 self.preferredContentSize = size

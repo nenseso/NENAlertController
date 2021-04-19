@@ -19,7 +19,7 @@ class MyCustomView1: UIView {
     }
     
     func setupUI() {
-        self.backgroundColor = .lightGray
+        self.backgroundColor = .white
         
         let label = UILabel()
         label.text = "I'm a custom view"
